@@ -1,0 +1,186 @@
+html{
+    background-color: black;
+    margin: auto;
+    width: 1300px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+p{
+    font: sans-serif;
+    font-size: 1.25em;
+}
+header h1{
+    font-size: 3em;
+    color: #007d7b;
+}
+nav li{
+    display:inline-flex;
+}
+nav{
+    background-color: black;
+    text-align: right;
+}
+nav a{
+    color: #ffffff;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 5px;
+}
+
+[href="#Top"]{
+    position:fixed;
+    bottom:0px;
+    right: 0px;
+    background-color: black;
+    padding-right: 10px;
+}
+
+h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+#pictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.chill{
+    position: relative;
+    Top:-30px;
+    left: 140px;
+    color: #ffffff;
+}
+.Ira{
+    position: relative;
+    top: -600px;
+    left: 140px;
+}
+.Moa{
+    position: relative;
+    top: -30px;
+    left: 115px;
+    color: #ffffff;
+}
+.U{
+    position: relative;
+    top: -250px;
+    left: 145px;
+    color: #000000;
+}
+
+.Guate{
+    position: relative;
+    top: -260px;
+    left: 140px;
+    color: #ffffff;
+}
+
+.Ire{
+    position: relative;
+    top: -600px;
+    left: 140px;
+    color: #000000;
+}
+
+.Rock{
+    position: relative;
+    top: -270px;
+    left: 100px;
+    color: #000000;
+}
+
+.US{
+    position: relative;
+    top: -265px;
+    left: 170px;
+    color: #000000;
+}
+
+.Wyo{
+    position: relative;
+    top: -265px;
+    right:-140px;
+    color: #ffffff;
+}
+
+.Switer{
+    position: relative;
+    top: -270px;
+    right:-140px;
+    color: #000000;
+}
+.Ita{
+    position: relative;
+    top: -50px;
+    right:-160px;
+    color: #000000;
+}
+
+.Haw{
+    position: relative;
+    top: -30px;
+    right:-160px;
+    color: #ffffff;
+}
+
+#Chile{
+    position: absolute;
+    top: 350%;
+    left: 230%;
+}
+
+#Contact{
+    width: 1300px;
+	margin: auto;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	padding: 16px;
+	color: #ffffff;
+    background-color: black;
+}
+
+#Contact h2+ p {
+    text-align: center; 
+
+}
+
+#Contact title ~ p{
+    color: #007d7b;
+    padding-top: 20px;
+    text-align: left;
+}
+
+
+
+input, input[type=label], input[type=textarea], input[type=select] {
+	width: 100%;
+	display: block;
+}
+
+
+input, label, textarea{
+	display: block;
+	width: 80%;
+	padding: 10px;
+	font-size: 16px;
+	margin-bottom: 24px;
+    margin: auto ;
+}
+#submit{
+	background-color: #196774;
+	border-style: none;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+    width: 50%;
+    border-radius: 20px;
+}
+
+footer{
+    text-align: center;
+}
+
